@@ -21,6 +21,7 @@ export const CUSTOM_PRESETS: Record<Category, TopicPair[]> = {
     { majority: 'サッカー', minority: '野球' },
     { majority: '夏祭り', minority: '花火大会' },
     { majority: 'タクシー', minority: '電車' },
+    { majority: 'youtube', minority: 'Netflix' },
   ],
   romance: [
     { majority: '両思い', minority: '片思い' },
@@ -28,10 +29,10 @@ export const CUSTOM_PRESETS: Record<Category, TopicPair[]> = {
     { majority: '嫉妬', minority: 'DV' },
     { majority: '束縛', minority: '自由恋愛' },
     { majority: '溺愛', minority: '塩対応' },
-    { majority: '本命', minority: '遊び' },
     { majority: '同棲', minority: '遠距離' },
     { majority: '告白', minority: '脈ありアピール' },
     { majority: 'キス', minority: 'ハグ' },
+    { majority: 'セフレ', minority: '本命' },
   ],
   ecchi: [
     { majority: '早漏', minority: '中折れ' },
@@ -49,7 +50,7 @@ export const CUSTOM_PRESETS: Record<Category, TopicPair[]> = {
     { majority: '風呂でセックス', minority: '車でセックス' },
     { majority: '目隠し', minority: '拘束' },
     { majority: '声我慢', minority: '発射我慢' },
-    { majority: '朝プレイ', minority: '夜プレイ' },
+    { majority: '朝プレイ', minority: '出会ってすぐプレイ' },
   ],
 };
 
