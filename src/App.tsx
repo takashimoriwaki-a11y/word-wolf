@@ -42,6 +42,7 @@ import { PenaltySideScreen } from './screens/PenaltySideScreen';
 import { PenaltyCreateScreen } from './screens/PenaltyCreateScreen';
 import { PenaltyListScreen } from './screens/PenaltyListScreen';
 import { PenaltyEditScreen } from './screens/PenaltyEditScreen';
+import { DataSyncScreen } from './screens/DataSyncScreen';
 import { HowtoScreen } from './screens/HowtoScreen';
 
 const INITIAL_SETTINGS: GameSettings = {
@@ -229,9 +230,12 @@ export default function App() {
               refreshListPenalties();
               setScreen('penaltyList');
             }}
+            onDataSync={() => setScreen('dataSync')}
             onHowto={() => openHowto('top')}
           />
         );
+      case 'dataSync':
+        return <DataSyncScreen onHome={resetToTop} />;
       case 'penaltySide':
         return (
           <PenaltySideScreen

@@ -20,6 +20,7 @@ export type Screen =
   | 'penaltyCreate'
   | 'penaltyList'
   | 'penaltyEdit'
+  | 'dataSync'
   | 'howto';
 
 export type TopicPair = {

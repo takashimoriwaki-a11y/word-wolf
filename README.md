@@ -20,9 +20,9 @@ npm run dev
 
 ## iPhoneで使う（GitHub Pages）
 
-公開後のURL例:
+公開URL:
 
-`https://<あなたのGitHubユーザー名>.github.io/word-wolf/`
+https://takashimoriwaki-a11y.github.io/word-wolf/
 
 1. Safariで上記URLを開く
 2. 共有 → **ホーム画面に追加**

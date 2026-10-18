@@ -490,6 +490,14 @@ button:disabled {
   color: var(--pink);
 }
 
+.sync-message {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
 .topic-list-card {
   padding-top: 16px;
   padding-bottom: 12px;

@@ -6,6 +6,7 @@ type Props = {
   onViewTopics: () => void;
   onCreatePenalties: () => void;
   onViewPenalties: () => void;
+  onDataSync: () => void;
   onHowto: () => void;
 };
 
@@ -15,6 +16,7 @@ export function TopScreen({
   onViewTopics,
   onCreatePenalties,
   onViewPenalties,
+  onDataSync,
   onHowto,
 }: Props) {
   return (
@@ -38,6 +40,9 @@ export function TopScreen({
         </button>
         <button type="button" className="btn btn-ghost btn-compact" onClick={onViewPenalties}>
           罰ゲームを確認
+        </button>
+        <button type="button" className="btn btn-ghost btn-compact" onClick={onDataSync}>
+          データ引き継ぎ
         </button>
         <button type="button" className="btn btn-ghost btn-compact" onClick={onHowto}>
           遊び方を見る
