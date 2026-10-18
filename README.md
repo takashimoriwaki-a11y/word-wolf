@@ -18,27 +18,25 @@ npm run dev
 
 表示された URL（例: `http://localhost:5173`）を開きます。
 
-## iPhoneで使う
+## iPhoneで使う（GitHub Pages）
 
-### 同じWi-Fiで試す場合
+公開後のURL例:
+
+`https://<あなたのGitHubユーザー名>.github.io/word-wolf/`
+
+1. Safariで上記URLを開く
+2. 共有 → **ホーム画面に追加**
+3. 追加したアイコンから起動
+
+## ローカル確認
 
 ```bash
+npm install
 npm run dev
 ```
 
-ターミナルに出る `Network:` のアドレス（例: `http://192.168.x.x:5173`）を、iPhoneのSafariで開きます。
+## GitHubへ公開する手順
 
-### ホーム画面に追加（アプリっぽく使う）
-
-1. Safariでアプリを開く
-2. 共有ボタン → 「ホーム画面に追加」
-3. 追加したアイコンから起動
-
-※ 本格利用時はHTTPSで公開したURLを使うのがおすすめです。
-
-## 公開用ビルド
-
-```bash
-npm run build
-npm run preview
-```
+1. このリポジトリを GitHub の `word-wolf` に push
+2. リポジトリの **Settings → Pages → Source** を **GitHub Actions** に設定
+3. `main` への push で自動デプロイされます
